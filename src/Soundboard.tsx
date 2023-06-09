@@ -4,16 +4,24 @@ import { PlayIcon } from './PlayIcon';
 
 const SOUNDS: Sound[] = [
   {
-    name: 'foo',
-    url: '',
+    name: 'Heater-1.mp3',
+    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3',
   },
   {
-    name: 'bar',
-    url: '',
+    name: 'Kick_n_Hat-2.mp3',
+    url: 'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3',
   },
   {
-    name: 'baz',
-    url: '',
+    name: 'Chord_1.mp3',
+    url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3',
+  },
+  {
+    name: 'Give_us_a_light.mp3',
+    url: 'https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3',
+  },
+  {
+    name: 'Brk_Snr.mp3',
+    url: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3',
   },
 ];
 
