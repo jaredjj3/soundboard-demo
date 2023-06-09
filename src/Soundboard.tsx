@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Sound } from './types';
+import { PlayIcon } from './PlayIcon';
 
 const SOUNDS: Sound[] = [
   {
@@ -32,7 +33,7 @@ export const Soundboard = () => {
               <td>{sound.name}</td>
               <td>
                 <button type="button" className="btn btn-success">
-                  play
+                  <PlayIcon />
                 </button>
               </td>
             </tr>
