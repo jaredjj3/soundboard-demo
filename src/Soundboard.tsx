@@ -26,6 +26,10 @@ const SOUNDS: Sound[] = [
 ];
 
 export const Soundboard = () => {
+  const onClick = (url: string) => {
+    new Audio(url).play();
+  };
+
   return (
     <div>
       <table className="table">
@@ -40,7 +44,11 @@ export const Soundboard = () => {
             <tr>
               <td>{sound.name}</td>
               <td>
-                <button type="button" className="btn btn-success">
+                <button
+                  type="button"
+                  className="btn btn-success"
+                  onClick={() => onClick(sound.url)}
+                >
                   <PlayIcon />
                 </button>
               </td>
