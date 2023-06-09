@@ -4,8 +4,8 @@ import { Soundboard } from './Soundboard';
 
 export default function App() {
   return (
-    <div>
-      <h1>Code Next Soundboard</h1>
+    <div className="container">
+      <h1>Soundboard Demo</h1>
       <Soundboard />
     </div>
   );
